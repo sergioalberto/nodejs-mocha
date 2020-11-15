@@ -1,0 +1,33 @@
+{
+  "name": "nodejs-mocha",
+  "version": "1.0.0",
+  "description": "It is am NodeJS app example with Mocha",
+  "main": "app/app.js",
+  "scripts": {
+    "start": "node app/app.js",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergioalberto/nodejs-mocha.git"
+  },
+  "keywords": [
+    "nodejs",
+    "nocha"
+  ],
+  "author": "sergiogq",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sergioalberto/nodejs-mocha/issues"
+  },
+  "homepage": "https://github.com/sergioalberto/nodejs-mocha#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1",
+    "request": "^2.88.2",
+    "nyc": "^15.1.0"
+  }
+}
