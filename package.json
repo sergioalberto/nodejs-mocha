@@ -2,10 +2,11 @@
   "name": "nodejs-mocha",
   "version": "1.0.0",
   "description": "It is am NodeJS app example with Mocha",
-  "main": "app/app.js",
+  "main": "app/src/app.js",
   "scripts": {
-    "start": "node app/app.js",
-    "test": "mocha"
+    "start": "node app/src/app.js",
+    "test": "mocha 'app/test'",
+    "test:coverage": "DEBUG=true nyc --reporter=html --reporter=text --timeout=3000 mocha app/test"
   },
   "repository": {
     "type": "git",
